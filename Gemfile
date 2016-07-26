@@ -26,10 +26,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+#
+gem 'pg'
 
 group :development, :test do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -42,7 +42,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'mysql2'
 
   # Use Unicorn as the app server
   gem 'unicorn'
