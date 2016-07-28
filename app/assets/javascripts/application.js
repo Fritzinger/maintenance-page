@@ -15,4 +15,4 @@
 //= require turbolinks
 //= require_tree .
 //
-console.log "JS changed!"
+console.log("JS changed!");
